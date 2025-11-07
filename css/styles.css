@@ -1,0 +1,211 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.mainlogo{
+    text-align: center;
+}
+
+#navbar{
+
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    background-color: #528081;
+   
+    
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #75b2b1;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    font-family: "carlmarx", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+    color: #528081;
+    background-color: #75b2b1;
+}
+
+
+.history{
+    color: #462f1c;
+    padding: 16px;
+}
+
+.image{
+padding: 10px 0 2px 0 ;
+text-align: center;
+margin: 0 0 10px 0;
+}
+
+.saladimg{
+   text-align: center;
+}
+.mheader{
+    text-align: center;
+    color: white;
+    background-color: #75b2b1;
+}
+
+.buildurown{
+    border: 8px solid #ad643f;
+   padding: 7px;
+   border-radius: 15px;
+   margin: 0 0 10px 0;
+   
+}
+
+.sheader{
+    text-align: center;
+    color: #462f1c;
+    font-family: "reross-quadratic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 0 0 20px 0;
+}
+
+.theader{
+
+color: #462f1c;
+font-family: "reross-quadratic", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+}
+
+.headname{
+    font-family: "carlmarx", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #75b2b1;
+  margin: auto;
+}
+
+.headpizza{
+    font-family: "carlmarx", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #ad643f;
+}
+
+
+.history{
+    padding: 10px 2px 2px 2px;
+    break-inside: avoid;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+
+.body, .contact{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #462f1c;
+    margin: 0 0 25px 0;
+}
+
+.box{
+    color: #75b2b1;
+    background-color: #75b2b1;
+}
+
+.orange{
+    color: #ad643f;
+    background-color: #ad643f;
+}
+
+
+.top a{
+    text-align: center;
+   display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #528081;
+    padding: auto;  
+    font-size: 20px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.top a:hover{
+    background-color: #75b2b1;
+    color: white;
+}
+
+@media (max-width: 1600px) {
+    .history, .pizzabuild{
+        columns: 2;
+        break-inside: avoid;
+    }
+
+    .map{
+        columns: 2;
+        break-inside: avoid;
+    }
+    .his{
+    padding: 20px 0 0 0;
+}
+.header{
+    padding: 30px;
+}
+#navbar a{
+    padding: 20px;
+    font-size: 20px;
+}
+.headpizza{
+    text-align: center;
+    font-size: 30px;
+}
+  
+}
+
+@media (max-width: 500px){
+   .history, .pizzabuild, .map{
+    columns: 1;
+}
+
+.his{
+    padding: auto;
+}
+.header{
+    padding: .2px;
+    font-size: 60px;
+}
+#navbar a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.headpizza{
+    text-align: left;
+    font-size: 20px;
+}
+}
